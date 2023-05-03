@@ -1,7 +1,7 @@
 let user = {
     name: "Pratik",
-    age: 30
+    age: 30,
+    email: 'pratiksinghdeo@gmail.com'
 }
 
-let key = prompt("What do you want to know about the user?", "name")
-alert(user[key])
+console.log(user.name);
